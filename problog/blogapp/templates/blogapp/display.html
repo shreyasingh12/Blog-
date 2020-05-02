@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blogapp</title>
+    <link rel="stylesheet" type="text/css"  href="style.css">
+</head>
+<body>
+<h2>fuckoff</h2>
+<div class="blogapp">
+    {% for blogapp in blogapps %}
+      <div class="blogapp">
+          <h2><a href="#">{{blogapp.title}}</a></h2>
+          <p>{{blogapp.snippet}}</p>
+          <p>{{blogapp.date}}</p>
+      </div>
+    {% endfor %}
+</div>
+</body>
+</html>
