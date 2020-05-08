@@ -2,13 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="370a3604-34de-403d-a15d-36a3dd8a6c9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/blogapp/migrations/0002_auto_20200505_1124.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/blogapp/static/blog/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/blogapp/static/blog/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/media/default.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/media/profile_pics/IMG-20200216-WA0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/media/profile_pics/IMG20200307104856.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/media/profile_pics/IMG_20200220_212513.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/media/profile_pics/IMG_3141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/templates/users/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/templates/users/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/templates/users/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problog/blogapp/templates/blogapp/display.html" beforeDir="false" afterPath="$PROJECT_DIR$/problog/blogapp/templates/blogapp/display.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problog/assests/ss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problog/blogapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/problog/blogapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problog/blogapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/problog/blogapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problog/blogapp/templates/blogapp/display.html" beforeDir="false" afterPath="$PROJECT_DIR$/problog/blogapp/templates/blogapp/home1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problog/blogapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/problog/blogapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problog/blogapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/problog/blogapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/problog/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problog/problog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/problog/problog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problog/problog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/problog/problog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problog/problog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/problog/problog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problog/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/problog/blogapp/templates/blogapp/about.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -29,8 +56,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bFc8oJLpFYdg7HiT6JuzVCWDlu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -69,8 +99,23 @@
       <workItem from="1588323551839" duration="1762000" />
       <workItem from="1588332047393" duration="6849000" />
       <workItem from="1588399824143" duration="11270000" />
-      <workItem from="1588433718468" duration="105000" />
+      <workItem from="1588433718468" duration="3633000" />
+      <workItem from="1588487911058" duration="957000" />
+      <workItem from="1588613332401" duration="4376000" />
+      <workItem from="1588653954118" duration="12408000" />
+      <workItem from="1588748219887" duration="9046000" />
+      <workItem from="1588781153199" duration="183000" />
+      <workItem from="1588781593760" duration="1931000" />
+      <workItem from="1588833167754" duration="6167000" />
     </task>
+    <task id="LOCAL-00001" summary="version2">
+      <created>1588433857264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588433857264</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,15 +134,9 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problog/problog/settings.py</url>
-          <line>126</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="version2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version2" />
   </component>
 </project>

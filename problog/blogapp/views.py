@@ -1,10 +1,34 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import blogapp
-# Create your views here.
-def blog_list(request):
-    blogapps = blogapp.objects.all()
-    return render(request,'blogapp/display.html', {'blogapps':blogapps})
+from .models import Post
 
-def blog_detail(request, slug):
-    return HttpResponse("Heyyy")
+# Create your views here.
+
+posts=[
+    {
+        'author':'shreya singh',
+        'title': 'at',
+        'content':'frnd',
+        'date_posted': 'aj ki',
+    },
+{
+        'author':'shreya singh',
+        'title': 'at',
+        'content':'frnd',
+        'date_posted': 'aj ki',
+    },
+{
+        'author':'shreya singh',
+        'title': 'at',
+        'content':'frnd',
+        'date_posted': 'aj ki',
+    },
+]
+def home1(request):
+    context={
+        'posts': Post.objects.all()
+    }
+    return render(request,'blogapp/home1.html', context)
+
+def about(request):
+    return render(request, 'blogapp/about.html', {'title':'About'})
